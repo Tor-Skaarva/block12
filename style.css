@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(8, 10, 138) !important;
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+}
+nav {
+  background-color: grey;
+}
+nav div {
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  margin-top: 80%;
+  background-color: yellow;
+}
+.abouth2 {
+  text-align: center;
+  border-bottom: solid;
+}
+.ultimate {
+  text-align: center;
+}
+.ultimateFrisbee {
+  text-align: center;
+  border-bottom: solid;
+}
+.sm-img {
+  height: 50px;
+  padding: 20px;
+}
+
+.homeh2 {
+  text-align: center;
+}
+.randomGuy {
+}
+.phome {
+  text-align: center;
+}
+.Quote {
+  text-align: center;
+}
+form {
+  align-items: center;
+  width: 80%;
+  margin: 20 auto;
+}
+.aboutPage {
+  grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+}
+.Frisbee {
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
